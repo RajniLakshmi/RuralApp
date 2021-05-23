@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyRuralApp</string>
+    <string name="title_activity_maps_welcome">Map</string>
+    <string name="title_activity_location">Map</string>
+    <string name="google_direction_api">AIzaSyDnPwDzPLVz4lz9KGrK7sPfWkXAnBG2NoQ</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps_welcome_rider">Map</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_rider">HomeRider</string>
+    <string name="title_activity_driver_map1">Map</string>
+    <string name="title_activity_customer_map1">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_customer_product_home">CustomerProductHome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

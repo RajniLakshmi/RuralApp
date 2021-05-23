@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myruralapp">
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory">
+        <activity android:name=".notifyLearn.RegisterActivity"/>
+        <activity android:name=".notifyLearn.LoginActivity" >
+
+        </activity>
+        <activity android:name=".notifyLearn.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SellerOptionActivity" />
+        <activity android:name=".BuyerOptionsActivity" />
+        <activity android:name=".SelectionActivity" />
+        <activity android:name=".VerifyPhoneActivity" />
+        <activity android:name=".productModule.ShopsNearMeActivity" />
+        <activity android:name=".productModule.CustomerProductCategoryActivity" />
+        <activity android:name=".productModule.AdminMaintainProductsActivity" />
+        <activity android:name=".productModule.SearchProductsActivity" />
+        <activity android:name=".productModule.ProductAdminUserProductsActivity" />
+        <activity android:name=".productModule.ProductAdminNewOrdersActivity" />
+        <activity android:name=".productModule.ConfirmFinalOrderActivityProduct" />
+        <activity android:name=".productModule.CartActivity" />
+        <activity android:name=".productModule.ProductDetailsActivity" />
+        <activity android:name=".productModule.MainActivityProduct" />
+        <activity android:name=".productModule.SettingsActivity" />
+        <activity android:name=".productModule.Blank" />
+        <activity
+            android:name=".productModule.CustomerProductHome"
+            android:label="@string/title_activity_customer_product_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".productModule.CustomerProductLoginActivity" />
+        <activity android:name=".productModule.CustomerProductSignUpActivity" />
+        <activity
+            android:name=".productModule.SellerAddNewProduct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".productModule.SellerProductLoginActivity" />
+        <activity android:name=".CustomerLoginActivity" />
+        <activity android:name=".productModule.SellerProductSignUpActivity" />
+        <activity android:name=".productModule.SellerProductCategoryActivity" />
+        <activity android:name=".AppUserRegisterActivity" />
+        <activity android:name=".MainActivity1" />
+        <activity android:name=".DriverSignUpActivity" />
+        <activity android:name=".CustomerSignUpActivity" />
+        <activity android:name=".DriverMapActivity" />
+        <activity android:name=".CustomerMapActivity" />
+        <activity android:name=".CustomerSettingsActivity" />
+        <activity android:name=".DriverLoginActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

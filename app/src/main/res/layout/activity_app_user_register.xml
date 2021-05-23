@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppUserRegisterActivity"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="YOUR PROFILE"
+    android:textAlignment="center"
+    android:layout_marginTop="20dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_person_black_24dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edge_bg"
+        android:textAlignment="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:id="@+id/app_user_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Age"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edge_bg"
+        android:textAlignment="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        android:id="@+id/app_user_age"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_edge_bg"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center_vertical"/>
+
+        <RadioGroup
+            android:id="@+id/app_user_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:inputType="text"
+            android:orientation="horizontal"
+            android:layout_marginStart="35dp">
+
+            <RadioButton
+                android:id="@+id/gender_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableEnd="@android:drawable/btn_radio"
+                android:text="female"
+                android:layout_marginEnd="10dp"/>
+
+            <RadioButton
+                android:id="@+id/gender_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableEnd="@android:drawable/btn_radio"
+                android:text="male"
+                android:layout_marginEnd="10dp"/>
+
+            <RadioButton
+                android:id="@+id/gender_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableEnd="@android:drawable/btn_radio"
+                android:text="other"/>
+        </RadioGroup>
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Adhar No."
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edge_bg"
+        android:textAlignment="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        android:id="@+id/app_user_adhar"
+        android:maxLength="12"
+        android:digits="0123456789"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Mobile"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edge_bg"
+        android:textAlignment="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="phone"
+        android:importantForAutofill="no"
+        android:id="@+id/app_user_mobile"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree to terms and conditions."
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/terms_conditions"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_edge_bg"
+        android:layout_marginTop="20dp"
+        android:id="@+id/app_user_verify"/>
+</LinearLayout>

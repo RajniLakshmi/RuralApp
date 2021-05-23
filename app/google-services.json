@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "440031340403",
+    "firebase_url": "https://myruralapp.firebaseio.com",
+    "project_id": "myruralapp",
+    "storage_bucket": "myruralapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440031340403:android:d7abe5692c9d5d18",
+        "android_client_info": {
+          "package_name": "com.example.myruralapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440031340403-cntai8qj04b315kbchlnsi0q2pf9ttk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myruralapp",
+            "certificate_hash": "b802bdbbf846d148b5f302814eb0c88443197455"
+          }
+        },
+        {
+          "client_id": "440031340403-hd9jali0s9bn65q9pv7cpblg5r7sv2ph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7iNukwV8Au_hHi2oGcKsSD79omB_Q4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440031340403-hd9jali0s9bn65q9pv7cpblg5r7sv2ph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
