@@ -94,7 +94,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
     private RadioGroup mRadioGroup;
 
     private RatingBar mRatingBar;
-    String apiKey = "AIzaSyDnPwDzPLVz4lz9KGrK7sPfWkXAnBG2NoQ";
+    String apiKey = "AIza*******";
 String TAG;
 
     @Override
